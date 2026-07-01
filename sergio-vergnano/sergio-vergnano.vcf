@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vergnano;Sergio;;;
+FN:Sergio Vergnano
+ORG:Fratelli Vergnano S.r.l.
+TITLE:Amministratore
+TEL;TYPE=WORK,VOICE:+390119423523
+EMAIL;TYPE=WORK:s.vergnano@vergnano.com
+URL:https://www.vergnano.com
+END:VCARD

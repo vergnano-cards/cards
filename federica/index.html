@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ColorsHollywood</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Impostazioni di base per mobile verticale */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #EFEFEF; /* Colore carta leggermente grigio/caldo */
+            color: #222;
+            height: 100%;
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Contenitore principale a forma di schermata mobile */
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background-color: #EAE8E8;
+            background-image: radial-gradient(#d7d7d7 1px, transparent 0);
+            background-size: 40px 40px; /* Leggera texture per richiamare la carta */
+            min-height: 100vh;
+            padding: 40px 25px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Stile Titolo "Macchina da scrivere" */
+        .brand-name {
+            font-family: 'Special Elite', cursive;
+            font-size: 32px;
+            font-weight: normal;
+            letter-spacing: -1px;
+            color: #1a1a1a;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        /* I 5 quadrati di colore */
+        .color-blocks {
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+            margin-bottom: 30px;
+        }
+
+        .block {
+            width: 32px;
+            height: 32px;
+        }
+
+        .bg-yellow { background-color: #D6B21A; }
+        .bg-green  { background-color: #458235; }
+        .bg-purple { background-color: #4A245C; }
+        .bg-red    { background-color: #A81C26; }
+        .bg-blue   { background-color: #1F3361; }
+
+        /* Scritte in Corsivo Cremisi */
+        .script-text {
+            font-family: 'Dancing Script', cursive;
+            color: #9b1931;
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        
+        .thank-you {
+            font-family: 'Dancing Script', cursive;
+            color: #9b1931;
+            font-size: 42px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        /* Linea di separazione */
+        .divider {
+            width: 60%;
+            height: 1px;
+            background-color: #ccc;
+            margin: 10px auto 30px;
+        }
+
+        /* Stile Pulsanti per le Azioni */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            transition: transform 0.2s;
+            box-sizing: border-box;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .btn:active {
+            transform: scale(0.96);
+        }
+
+        .btn svg {
+            width: 22px;
+            height: 22px;
+            margin-right: 12px;
+        }
+
+        /* Colori specifici per i pulsanti */
+        .btn-insta {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            color: white;
+        }
+
+        .btn-email {
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        .btn-vcf {
+            background-color: white;
+            color: #1a1a1a;
+            border: 1px solid #ddd;
+        }
+
+        /* Stile per l'indirizzo email testuale */
+        .email-text {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="brand-name">ColorsHollywood</div>
+
+        <div class="color-blocks">
+            <div class="block bg-yellow"></div>
+            <div class="block bg-green"></div>
+            <div class="block bg-purple"></div>
+            <div class="block bg-red"></div>
+            <div class="block bg-blue"></div>
+        </div>
+
+        <div class="script-text">handmade in Italy for you</div>
+
+        <div class="divider"></div>
+
+        <div class="thank-you">Thank you</div>
+        
+        <div class="email-text">colorshollywood@gmail.com</div>
+
+        <a href="https://www.instagram.com/colorshollywood?igsh=MTFtYzc0ZmRla242Ng==" class="btn btn-insta" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+            Seguici su Instagram
+        </a>
+
+        <a href="mailto:colorshollywood@gmail.com" class="btn btn-email">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            Invia un'Email
+        </a>
+
+        <a href="colorshollywood.vcf" download="colorshollywood.vcf" class="btn btn-vcf">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+            </svg>
+            Salva in Rubrica
+        </a>
+
+    </div>
+
+</body>
+</html>

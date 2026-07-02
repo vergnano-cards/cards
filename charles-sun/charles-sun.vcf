@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sun;Charles;;;
+FN:Charles Sun (孙亚军)
+ORG:Beijing Antec Corporation;北京安达特工贸有限公司
+TEL;TYPE=WORK,VOICE:+861064893935
+TEL;TYPE=WORK,FAX:+861064893169
+ADR;TYPE=WORK:;;Rm. 602\, BeihuanZhongxin\, No. 18\, Yumin Rd.;Xicheng District\, Beijing;;100029;China
+NOTE:Chinese Address: 北京市西城区裕民路18号北环中心602室
+END:VCARD
